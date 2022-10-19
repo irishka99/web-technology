@@ -1,0 +1,30 @@
+@font-face {
+	font-family: 'Pobeda Regular';
+	src: url('fonts/pobeda_regular.eot');
+	src: url('fonts/pobeda_regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/pobeda_regular.woff2') format('woff2'),
+		url('fonts/pobeda_regular.woff') format('woff'),
+		url('fonts/pobeda_regular.ttf') format('truetype'),
+		url('fonts/pobeda_regular.svg#pobeda_regular') format('svg');
+}
+
+body {
+	background-color: #dbc0d9;
+}
+
+h1 {
+	color: #2a2e14;
+	font-family: 'Pobeda Regular', sans-serif;
+}
+
+.colored {
+	background-color: #910c20;
+}
+
+ul {
+	width: 200px;
+}
+
+.txtcnter {
+	text-align: center;
+}
