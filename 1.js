@@ -12,6 +12,6 @@
 
 
 
-const tempCels = prompt('Введите температуру в градусах Цельсия');
+const tempCels = +prompt('Введите температуру в градусах Цельсия');
 const tempFareng = (9 / 5) * tempCels + 32;
 alert(`Цельсий: ${tempCels} , Фаренгейт: ${tempFareng.toFixed(1)}`);
