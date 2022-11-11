@@ -1,0 +1,75 @@
+задача с фруктами 
+
+[
+    {
+      "product":"яблоки",
+      "weight": 1000,
+      "price": 50
+    },
+    {
+      "product":"Картошка ранняя",
+      "weight": 5000,
+      "price": 30
+    }
+    
+  ]
+
+задача по xml 1
+
+
+  <?xml version ="1.0"?>
+<biblioteka>
+    <book>
+        <title>Война и Мир</title>
+        <author>Толстой</author>
+    </book>
+    <book>
+        <title>прр</title>
+        <author>Трот</author>
+    </book>
+    
+</biblioteka>
+
+задача по xml 2
+
+<?xml version="1.0"?>
+<doRegister>
+    <email>olga@gmail.com</email>
+    <name>Ольга</name>
+    <password>1</password>
+</doRegister>
+<doRegister>
+    <email>ivan@gmail.com</email>
+    <name>Иван</name>
+    <password>222</password>
+</doRegister>
+
+задача Json 
+
+{
+    "query": "Виктор Иван",
+    "count": 7,
+    "parts": ["NAME", "SURNAME"]
+  }
+
+
+
+  посл задача
+  [
+    {
+      "name":"Иван",
+      "surname": "Иванов",
+      "age": 37,
+      "hobbies":["Рыбалка","охота","футбол"],
+      "status":true,
+      "children":["Мария","Николай"]
+    },
+    {
+      "name":"Ольга",
+      "surname": "Фролова",
+      "age": 37,
+      "hobbies":["Рыбалка","охота","футбол"],
+      "status":false,
+      "children":null
+    }
+  ]
